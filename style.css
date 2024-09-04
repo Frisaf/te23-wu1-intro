@@ -4,9 +4,10 @@ main, footer {
 }
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Comfortaa;
     font-size: 1.2rem;
     background-color: rgb(119, 159, 159);
+    line-height: 1.5;
 }
 
 .borderBox {
@@ -21,4 +22,23 @@ body {
     border-color: black;
     border-radius: 20px;
     border-style: dotted;
+}
+
+ul.listOne {
+    display: inline-block;
+    text-align: left;
+    list-style: decimal;
+    line-height: 2;
+}
+
+.listItem {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.topBox {
+    width: 100%;
+    height: 75%;
+    background-color: brown;
+    text-align: center;
 }
