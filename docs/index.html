@@ -7,34 +7,42 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="scrpt.js"></script>
 </head>
-<script src="scrpt.js"></script>
-<link rel="stylesheet" href="style.css">
 <body>
     <main>
         <nav id="navbar">
             <ul class="navbar">
                 <li><a href="index.html">
-                        <i class="fa fa-home"></i>
-                        Home</a></li>
-                <li><a href="tale.html">Tale</a></li>
+                    <i class="fa fa-home"></i>
+                    Home</a></li>
+                <li><a href="tale.html">
+                    <i class="fa fa-book" aria-hidden="true"></i>
+                    Tale</a></li>
             </ul>
+            <p style="color: white; padding-right: 8px; margin: 0;">HOME</p>
         </nav>
-        <br><br>
-        <div class="borderBox">
-            <h1>HTML Elements</h1>
-            <p>This is Ash's short guide to HTML elements, with focus on text, translated to English</p>
-            <h2>HTML text elements</h2>
-            <p>To format a text with HTML, one can use different heading elements. Paragraphs are used for paragraphs (obviously).</p>
-            <p>You can read more about <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">HTML text elements at Mozilla</a></p>
-            <p>You can see a few examples of HTML text elements down below.</p>
-            <ul class="listOne">
-                <li><code>&lt;h1&gt;</code> - The heading 1 element, the biggest heading.</li>
-                <li><code>&lt;h2&gt;</code> - The heading 2 element, the second biggest heading.</li>
-                <li><code>&lt;a&gt;</code> - Creates a hyperlink. The link itself is specified in the href attribute.</li>
-                <li><code>&lt;div&gt;</code> - Creates a "box", which you can assign a CSS class to style it. Useful for structuring and designing the website.</li>
-            </ul>
-            <p>On this <a href="tale.html">page</a>, you can read a tale that has been formatted with HTML.</p>
+
+        <div class="content">
+            <div class="borderBox">
+                <h1>HTML Elements</h1>
+                <p>This is Ash's short guide to HTML elements, with focus on text, translated to English</p>
+                <h2>HTML text elements</h2>
+                <p>To format a text with HTML, one can use different heading elements. Paragraphs are used for paragraphs (obviously).</p>
+                <p>You can read more about <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">HTML text elements at Mozilla</a></p>
+                <p>You can see a few examples of HTML text elements down below.</p>
+                <div class="list">
+                    <ul class="listOne">
+                        <li><code>&lt;h1&gt;</code> - The heading 1 element, the biggest heading.</li>
+                        <li><code>&lt;h2&gt;</code> - The heading 2 element, the second biggest heading.</li>
+                        <li><code>&lt;a&gt;</code> - Creates a hyperlink. The link itself is specified in the href attribute.</li>
+                        <li><code>&lt;div&gt;</code> - Creates a "box", which you can assign a CSS class to style it. Useful for structuring and designing the website.</li>
+                    </ul>
+                </div>
+                <p>On this <a href="tale.html">page</a>, you can read a tale that has been formatted with HTML.</p>
+            </div>
         </div>
     </main>
     <br>
