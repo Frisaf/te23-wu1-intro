@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Elements</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="scrpt.js"></script>
+</head>
+<body>
+    <main>
+        <nav id="navbar">
+            <ul class="navbar">
+                <li><a href="index.html">
+                    <i class="fa fa-home"></i>
+                    Home</a></li>
+                <li><a href="tale.html">
+                    <i class="fa fa-book" aria-hidden="true"></i>
+                    Tale</a></li>
+                <li><a href="documentation.html">
+                    <i class="fa fa-file-text" aria-hidden="true"></i>
+                    Documentation</a></li>
+            </ul>
+            <p style="color: white; padding-right: 8px; margin: 0;">DOCUMENTATION</p>
+        </nav>
+
+        <div class="content">
+            <div class="borderBox">
+                <div class="tab">
+                    <button class="tablinks active" onClick="documentationLang(event, 'English')" style="color: black;" id="defaultTab">English</button>
+                    <button class="tablinks" onClick="documentationLang(event, 'Swedish')" style="color: black;">Swedish</button>
+                </div>
+                    <div id="English" class="tabcontent" style="display: block;">
+                        <h1>Documentation</h1>
+                        <h2>Tools I have used to detect errors</h2>
+                        <div class="list">
+                            <ul class="listOne">
+                                <li>Wave</li>
+                                <li><a href="https://validator.nu" target="_blank">Validator.nu</a></li>
+                                <li><a href="https://jigsaw.w3.org/css-validator/" target="_blank">CSS validator</a></li>
+                            </ul>
+                        </div>
+                        <h3>Errors I got and how I solved them</h3>
+                        <div class="list">
+                            <ul class="listOne">
+                                <li>I didn't put the link to script.js in the head</li>
+                                    <p><em>Solved by putting the link to script.js in the head.</em></p>
+                                <li>Contrast errors with Wave</li>
+                                    <p><em>The colour of the links gave a contrast error, so I switched the looks of them with css by making them the same colour as the rest of the text, but bolded and of course underlined.</em></p>
+                            </ul>
+                        </div>
+                </div>
+                <div id="Swedish" class="tabcontent">
+                    <h1>Dokumentation</h1>
+                    <h2>Verktyg jag har använt för att kolla efter fel</h2>
+                    <div class="list">
+                        <ul class="listOne">
+                            <li>Wave</li>
+                            <li><a href="https://validator.nu" target="_blank">Validator.nu</a></li>
+                            <li><a href="https://jigsaw.w3.org/css-validator/" target="_blank">CSS validator</a></li>
+                        </ul>
+                    </div>
+                    <h3>Fel jag stötte på</h3>
+                    <div class="list">
+                        <ul class="listOne">
+                            <li>Jag satte inte länken till script.js i dokumentets head</li>
+                                <p><em>Löstes genom att sätta script.js i dokumentets head.</em></p>
+                            <li>Kontrasterror med Wave</li>
+                                <p><em>Färgen på länkarna gav ett kontrastfel, så jag ändrade utseendet på dem med css genom att göra dem i samma färg som resten av texten, men fetstilta och naturligtvis understrukna.</em></p>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <br>
+</body>
+</html>
