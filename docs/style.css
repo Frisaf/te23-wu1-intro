@@ -54,6 +54,7 @@ a:link, a:visited {
     align-content: center;
     background-color: white;
     font-family:'Times New Roman', Times, serif;
+    align-content: center;
 }
 
 .content {
@@ -182,4 +183,8 @@ hr {
 
 .tabcontent {
     display: none;
+}
+
+.taleBox img {
+    max-width: 100%;
 }
