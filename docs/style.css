@@ -7,6 +7,8 @@ main {
 footer {
     max-width: 50rem;
     margin-inline: auto;
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 body {
@@ -24,7 +26,6 @@ a:link, a:visited {
 }
 
 .borderBox {
-    /* width: 60%; */
     height: 75%;
     text-align: center;
     margin: auto;
@@ -146,7 +147,6 @@ hr {
 }
 
 #topBtn {
-    /* display: none; */
     position: fixed;
     bottom: 20px;
     right: 30px;
@@ -195,5 +195,14 @@ hr {
 }
 
 .taleBox img {
+    max-width: 100%;
+}
+
+.hero {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.hero img {
     max-width: 100%;
 }
